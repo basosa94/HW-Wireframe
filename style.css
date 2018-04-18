@@ -10,11 +10,12 @@ body {
     width: 960px;
     color: #777;
     background: #777;
+    margin:  0 auto;
   }
   
-  header {
+  #header {
     padding: 20px; 
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
     background: #ebebeb;
   }
 
@@ -24,19 +25,10 @@ body {
     background: #ebebeb;
   }
 
-  section {
-    width: 60%;
-    float: left;
-    height: 250px;
-    padding: 20px;
-    margin-bottom: 20px; 
-    background: #ebebeb;
-  }
-
   aside {
-    width: 38%;
+    width: 455px;
     float: right;
-    height: 250px;
+    height: 320px;
     padding: 20px; 
     margin-bottom: 20px;
     background: #ebebeb;
@@ -48,33 +40,45 @@ body {
     background: #ebebeb;
   }
 
-  article {
-      margin: 0 auto;
-      width: 90%;
-      height: 200px; 
+  section {
+    width: 495px;
+    float: left;
+    height: 320px;
     padding: 20px;
+    margin-bottom: 20px; 
+    background: #ebebeb;
+  }
+
+  article {
+    margin: 0 auto;
+    height: 220px;  
+    padding: 10px;
     color: #ebebeb; 
     background: #777;
   }
 
   #h1 {
-    height: 50px;
-    width: 98%;
-    padding: 0px;  
-    margin-top: 20px;
-    margin-bottom: 20px;  
+    height: 60px;
+    width: 100%;
+    padding: 20px;  
+    margin-top: 10px;
+    margin-bottom: 10px;  
     /* width: 495 px; */
     color: #777; 
     background: #ebebeb;
   }
 
   #p { 
-    margin: 0 auto;
-    height: 50px;
-    width: 98%;
-    padding: 0px; 
+    height: 60px;
+    width: 100%;
+    padding: 20px; 
+    /* margin-top: 10px; */
     margin-bottom: 20px; 
     /* width: 495px; */
     color: #777; 
     background: #ebebeb;
+  }
+
+  #p2 {
+    margin: 0;
   }
